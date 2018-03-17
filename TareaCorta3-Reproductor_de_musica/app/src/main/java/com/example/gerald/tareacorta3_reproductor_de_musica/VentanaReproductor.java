@@ -144,7 +144,6 @@ public class VentanaReproductor extends AppCompatActivity {
             @Override
             public void onStartTrackingTouch(SeekBar arg0)
             {
-                progreso.setPressed(false);
             }
 
             @Override
@@ -162,7 +161,6 @@ public class VentanaReproductor extends AppCompatActivity {
 
             posicion_actual = media.getCurrentPosition();
 
-            progreso.setPressed(false);
             progreso.setProgress(posicion_actual);
 
 
